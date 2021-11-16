@@ -1,0 +1,49 @@
+body{
+    display : flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #125772, #eb7686) ;
+
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+    align-items: center;
+    font: size 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #02b7ff, #eb7686) ;
+}
+.container .content{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .content input{
+   height: 45px;
+   width: 75%;
+}
+.container .content select{
+    height: 45px;
+    width: 75%;
+ }
+ .container .content button{
+    
+    height: 30px;
+    width: 50%;
+
+ }
